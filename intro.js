@@ -25,6 +25,8 @@ switch(comingOrGoing){
         console.log("are you coming or going?")
 };*/
 
+const { randomBytes } = require("crypto");
+
 //loops
 
 //while loops
@@ -149,4 +151,14 @@ console.log("rose in garden:", garden); */
 for (poke of pokemon){
     console.log(`i have caught ${poke}`)
 }; */
+
+//sort method
+sortMe = [5,4,3,2,1]
+sortMe.sort();
+console.log(sortMe);
+
+//slice method
+sliceMe = [2,3,3,3,4];
+sliced = sliceMe.slice(1,4);
+console.log(sliced);
 
