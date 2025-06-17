@@ -66,7 +66,7 @@ console.log(anArray);*/
 //adding values to arrays
 
 //create a new array
-const numbers = [2,3,4];
+/*const numbers = [2,3,4];
 
 // log the current length of the array
 console.log(numbers.length);
@@ -119,4 +119,18 @@ favShows.push("dragon ball z");
 favShows.unshift("attack on titan");
 
 //log the array
-console.log(favShows);
+console.log(favShows); */
+
+
+// using splice
+
+//splice allows you to add and remove items in the middle of the array.
+const garden = ["dirt", "weed", "weed", "weed", "dirt"];
+
+// Remove the weeds from our garden by splicing 3 items from index 1
+garden.splice(1, 3);
+console.log("cleaned garden:", garden);
+
+// Plant a rose in the middle of our garden by splicing nothing from index 1 and inserting items before it
+garden.splice(1, 0, "rose");
+console.log("rose in garden:", garden);
