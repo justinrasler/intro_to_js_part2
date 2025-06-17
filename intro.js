@@ -125,7 +125,7 @@ console.log(favShows); */
 // using splice
 
 //splice allows you to add and remove items in the middle of the array.
-const garden = ["dirt", "weed", "weed", "weed", "dirt"];
+/*const garden = ["dirt", "weed", "weed", "weed", "dirt"];
 
 // Remove the weeds from our garden by splicing 3 items from index 1
 garden.splice(1, 3);
@@ -133,4 +133,20 @@ console.log("cleaned garden:", garden);
 
 // Plant a rose in the middle of our garden by splicing nothing from index 1 and inserting items before it
 garden.splice(1, 0, "rose");
-console.log("rose in garden:", garden);
+console.log("rose in garden:", garden); */
+
+
+
+//Looping Over an array with a For Of Loop
+
+//Using a for of loop we can quickly loop over each element of an an array.
+
+//create an array
+/*const pokemon = ["Pikachu", "Mew", "Snorlax"];
+
+// Catch them all with a for of loop
+
+for (poke of pokemon){
+    console.log(`i have caught ${poke}`)
+}; */
+
