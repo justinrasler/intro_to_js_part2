@@ -153,12 +153,54 @@ for (poke of pokemon){
 }; */
 
 //sort method
-sortMe = [5,4,3,2,1]
+/*sortMe = [5,4,3,2,1]
 sortMe.sort();
 console.log(sortMe);
 
 //slice method
 sliceMe = [2,3,3,3,4];
 sliced = sliceMe.slice(1,4);
-console.log(sliced);
+console.log(sliced);*/
 
+//CLASSIC functions
+
+//hoisted functions
+//HOISTED, Generates a Prototype (Constructor, Arguments Objects)
+
+/*function helloWorld(){
+    console.log("Hello World")
+};
+
+//Anonymous Function with Function Keyword
+//Not Hoisted, Generates a Prototype
+
+helloWorld(); */
+
+/*const helloWorld = function(){
+    console.log("Hello World")
+};
+
+helloWorld(); */
+
+//Arrow Functions
+//Not Hoisted, No Prototype
+
+/*const helloWorld = () => {
+    console.log();
+};
+helloWorld(); */
+
+//Function Parameters and Arguments
+//Functions can receive information to use during execution.
+
+//Parameters: Variables defined in the function definition to represent arguments to be passed when the function is invoked.
+//Arguments: The data passed into the function when invoked.
+
+//Name is a parameter/variable that receives the first argument passed to nameAPony
+const nameAPony = (name) => {
+    console.log(`The name of my pony is ${name}`);
+};
+//Each invocation of nameAPony receives a different argument
+nameAPony("Charlie")
+nameAPony("Susie")
+nameAPony("Lisa")
