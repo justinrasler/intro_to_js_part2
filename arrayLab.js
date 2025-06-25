@@ -83,6 +83,7 @@ Exercise 8:
 */
 
 // Complete Exercise 8 below...
+soyIdx = foods.indexOf("sushi");
 
 console.log("Exercise 8 Result: ", soyIdx);
 
@@ -94,6 +95,8 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
+allFoods = foods.join(" ");
+
 console.log("Exercise 9 Result: ", allFoods);
 
 /*
@@ -102,6 +105,8 @@ Exercise 10:
 */
 
 // Complete Exercise 10 below...
+
+const hasSoup = foods.includes("soup");
 
 console.log("Exercise 10 Result: ", hasSoup);
 
@@ -117,6 +122,10 @@ Exercise 11:
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
+
+for (let i = 1; i <= 10; i += 2) {
+  console.log(i); // This will print 1, 3, 5, 7, 9
+}
 
 console.log("Exercise 11 Result: ", odds);
 
