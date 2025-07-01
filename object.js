@@ -26,7 +26,27 @@ const robot = {
     [key]: "lazers"
 };
 
-console.log(robot);
-console.log(robot.name);
-console.log(robot.weapon);
-console.log(robot["Gas Tank"]);
+// console.log(robot);
+// console.log(robot.name);
+// console.log(robot.weapon);
+// console.log(robot["Gas Tank"]);
+
+
+//methods - functions that belong to a paritcular object
+
+const pikachu = {
+    name: 'pikachu',
+    hello(){
+        console.log("this is " + this.name)
+    },
+    hello2: function(){
+        console.log("this is " + this.name)
+    },
+    hello3: () => {
+        console.log("this is " + pikachu.name)
+    }
+};
+
+pikachu.hello();
+pikachu.hello2();
+pikachu.hello3();
